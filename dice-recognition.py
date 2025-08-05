@@ -21,22 +21,12 @@ from typing import List
 
 # Internal dependencies
 from internal_data_classes import Blob, Dice
+from settings import DEBUG_DRAWINGS, IS_WINDOWS, WINDOWS_CAMERA_INDEX, LINUX_CAMERA_PATH
 
 
 # Color constants for blob visualization
 DARK_BLOB_COLOR = (255, 0, 0)  # Blue for dark blobs
 LIGHT_BLOB_COLOR = (0, 0, 255)  # Red for light blobs
-
-# Flag for enabling debug drawings
-DEBUG_DRAWINGS = False
-
-# Flag to select the correct camera
-IS_WINDOWS = True
-
-# Camera selection with example values
-# The index or device path may need to be adjusted based on the system
-WINDOWS_CAMERA_INDEX = 0
-LINUX_CAMERA_PATH = "/dev/video4"
 
 
 def create_blob_detector(is_dark=True) -> cv2.SimpleBlobDetector:
