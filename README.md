@@ -15,4 +15,17 @@ Es können mehrere Einstellungen in der Datei settings.py vorgenommen werden:
    - Der Pfad zum Kameradevice das unter Linux genutzt werden soll
 
 ## Programm starten
+Um das Programm zu starten, müssen einmalig die Abhängigkeiten isntalliert werden
+```bash
+pip install opencv-python
+pip install numpy
+pip install scikit-learn
+pip install scipy
+```
+
 Um das Programm zu starten, muss die Datei dice-recognition.py mit Python ausgeführt werden.
+```bash
+python dice-recognition.py
+```
+
+
