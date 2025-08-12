@@ -1,3 +1,11 @@
+"""Settings for a real time dice recognition.
+
+This file contains settings that are used by a dice recognition system.
+The settings are described below.
+
+Author: Louis Watermeyer
+"""
+
 # Flag for enabling debug drawings
 DEBUG_DRAWINGS = False
 
